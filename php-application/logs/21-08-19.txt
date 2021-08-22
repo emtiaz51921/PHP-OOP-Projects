@@ -1,0 +1,22 @@
+[19-Aug-2021 17:15:48 UTC] Uncaught exception: 'Exception' with message 'Method indexpoAction not found in controller App\Controllers\Posts
+'
+Stack trace: #0 /Users/shamimimtiaz/public_html/php-application/Core/Router.php(124): Core\Controller->__call('indexpo', Array)
+#1 /Users/shamimimtiaz/public_html/php-application/public/index.php(48): Core\Router->dispatch('posts/indexpo')
+#2 /Users/shamimimtiaz/.composer/vendor/laravel/valet/server.php(219): require('/Users/shamimim...')
+#3 {main}
+Thrown in '/Users/shamimimtiaz/public_html/php-application/Core/Controller.php' on line 56
+[19-Aug-2021 17:15:58 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Book not found'
+Stack trace: #0 /Users/shamimimtiaz/public_html/php-application/public/index.php(48): Core\Router->dispatch('book')
+#1 /Users/shamimimtiaz/.composer/vendor/laravel/valet/server.php(219): require('/Users/shamimim...')
+#2 {main}
+Thrown in '/Users/shamimimtiaz/public_html/php-application/Core/Router.php' on line 130
+[19-Aug-2021 17:16:09 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 /Users/shamimimtiaz/public_html/php-application/public/index.php(48): Core\Router->dispatch('products')
+#1 /Users/shamimimtiaz/.composer/vendor/laravel/valet/server.php(219): require('/Users/shamimim...')
+#2 {main}
+Thrown in '/Users/shamimimtiaz/public_html/php-application/Core/Router.php' on line 130
+[19-Aug-2021 17:16:12 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Products not found'
+Stack trace: #0 /Users/shamimimtiaz/public_html/php-application/public/index.php(48): Core\Router->dispatch('products')
+#1 /Users/shamimimtiaz/.composer/vendor/laravel/valet/server.php(219): require('/Users/shamimim...')
+#2 {main}
+Thrown in '/Users/shamimimtiaz/public_html/php-application/Core/Router.php' on line 130
