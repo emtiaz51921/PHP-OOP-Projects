@@ -1,0 +1,18 @@
+{
+    "name": "shamimimtiaz/php-mvc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Imtiaz Shamim",
+            "email": "emtiaz51921@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
